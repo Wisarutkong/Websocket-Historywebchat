@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+.login-all {
+    height: 100vh;
+    width: 100%;
+    background: url('../img/BackgroundLogin.svg') no-repeat;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerlogin {
+    width: 709px;
+    height: 338px;
+    background: #7CABDA;
+    border-radius: 15px;
+}
+
+input {
+    border: none;
+    height: 30px;
+    width: 280px;
+    border-radius: 5px;
+    margin: 10px 0px 0px 15px;
+    padding: 0 10px;
+}
+
+.login-title {
+    width: 709px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.login-title h1 {
+    font-size: 32px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.login-deatail p {
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    color: #DEDBDB;
+}
+
+.login {
+    list-style: none;
+}
+
+.login li a {
+    text-decoration: none;
+    font-size: 12px;
+    margin-left: 15px;
+}
+
+.login-username h2 {
+    margin-top: 20px;
+    margin-left: 15px;
+    font-size: 12px;
+    color: #DEDBDB;
+}
+
+.login-password h2 {
+    margin-top: 20px;
+    margin-left: 15px;
+    font-size: 12px;
+    color: #DEDBDB;
+}
+
+.btn-login {
+    margin-top: 20px;
+}
+
+.btn-submit {
+    background: #4685C5;
+    color: #FFFFFF;
+}
+
+.or-title {
+    margin-top: -150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #DEDBDB;
+}
+
+.or-title h3 {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+
+.login-with {
+    margin-top: -75px;
+}
+
+.login-with a {
+    background: #FFFFFF;
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #000;
+    /* justify-content: space-between; */
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+}
+
+.login-google {
+    margin-left: 420px;
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FFFFFF;
+}
+.login-gmail {
+    margin-left: 420px;
+    width: 250px;
+    height: 30px;
+    margin-top: 20px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FFFFFF;
+}
+
+.login-facebook {
+    margin-left: 420px;
+    width: 250px;
+    height: 30px;
+    margin-top: 20px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FFFFFF;
+}
+
+.login-apple {
+    margin-left: 420px;
+    width: 250px;
+    height: 30px;
+    margin-top: 20px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FFFFFF;
+}
+.login-google img{
+    margin-right: 10px;
+}
+
+.login-gmail img{
+    margin-right: 10px;
+
+}
+
+.login-facebook img{
+    margin-right: 10px;
+    
+}
+
+.login-apple img{
+    margin-right: 10px;
+
+}
+
